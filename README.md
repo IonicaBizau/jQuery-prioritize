@@ -17,3 +17,5 @@ Prioritize the jQuery events
   $("#b1").pOn('click', 2, function () { alert ('World'); });
 </script>
 ```
+
+[**LIVE DEMO**](http://jsfiddle.net/VxAVs/)
