@@ -16,7 +16,7 @@
         
         if (pEvents.length > 1) { return; }
         
-        this.on(events, selector, function () {
+        this.on(events, function () {
             var pEvs = $(this).data("pEvents") || [];
             for (var i = 0; i < pEvs.length; ++i) {
                 pEvs[i][1].call(this);
