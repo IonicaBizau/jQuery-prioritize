@@ -1,3 +1,14 @@
+/*
+ *  jQuery prioritize events
+ *
+ *  A small jQuery plugin that helps you to set the priority of
+ *  jQuery events uging `on` jQuery function.
+ *
+ *  Author: Ionică Bizău <bizauionica@gmail.com>
+ *  Copyright (c) Ionică Bizău and the contributors
+ *  License: MIT License
+ *
+ * */
 (function ( $ ) {
     $.fn.pOn = function (events, priority, callback) {
             
