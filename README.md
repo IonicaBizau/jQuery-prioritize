@@ -20,6 +20,7 @@ Prioritize the jQuery events
     $go.on('click', 3, function (){alert('this');     });
     $go.on('click', 2, function (){alert('not');      });
 </script>
+```
 
 ## Bugs
 Did you find a bug? Please report is [here](https://github.com/IonicaBizau/jQuery-prioritize/issues).
