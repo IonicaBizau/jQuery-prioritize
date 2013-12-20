@@ -37,7 +37,8 @@ I will try to merge the pull requests as fast I can.
 ## Changelog
 
 ### v0.2.0
- - TODO
+ - Overwrite `on` jQuery function.
+ - Fixed the mixing of the events
 
 ### v0.1.0
  - Initial release
