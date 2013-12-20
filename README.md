@@ -3,6 +3,8 @@ jQuery-prioritize
 
 Prioritize the jQuery events
 
+> [![](http://i.imgur.com/9UGT3TF.png)](http://ionicabizau.github.io/jQuery-prioritize/)
+
 ## Demo
 
 ```HTML
