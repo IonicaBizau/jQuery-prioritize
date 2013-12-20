@@ -6,23 +6,39 @@
     </head>
     <body>
         <pre>
+// test 1
 var $go = $("#go");
-$go.on('click', 5, function (){alert('nice');     });
-$go.on('click', 4, function (){alert('a');        });
-$go.on('click', 6, function (){alert('plugin?');  });
-$go.on('click', 1, function (){alert('Is');       });
-$go.on('click', 3, function (){alert('this');     });
-$go.on('click', 2, function (){alert('not');      });
+$go.on('click', 5, function () { console.log('nice');     });
+$go.on('click', 4, function () { console.log('a');        });
+$go.on('click', 6, function () { console.log('plugin?');  });
+$go.on('click', 1, function () { console.log('Is');       });
+$go.on('click', 3, function () { console.log('this');     });
+$go.on('click', 2, function () { console.log('not');      });
         </pre>
         <button id="go">Test 1</button>
+
         <br/>
         <pre>
+// test 2
 var $go1 = $("#go1");
-$go1.on('click', /* 1 */ function () { alert('Helo'); });
-$go1.on('click', /* 2 */function () { alert('World!'); });
-$go1.on('click', 1.5, function () { alert('Beautiful'); });
+$go1.on('click', /* 1 */ function () { console.log('Helo');      });
+$go1.on('click', /* 2 */ function () { console.log('World!');    });
+$go1.on('click', 1.5,    function () { console.log('Beautiful'); });
         </pre>
         <button id="go1">Test 2</button>
+        
+        <br/>
+        <pre>
+// test 3
+var $go2 = $("#go2");
+$go2.on('click',     5, function () { console.log ('nice');     });
+$go2.on('click',     4, function () { console.log ('a');        });
+$go2.on('click',     6, function () { console.log ('plugin?');  });
+$go2.on('mouseover', 1, function () { console.log ('Is --');    });
+$go2.on('click',     3, function () { console.log ('this');     });
+$go2.on('click',     2, function () { console.log ('not');      });
+        </pre>
+        <button id="go2">Test 3</button>
         <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="../src/jquery-prioritize.js"></script>
         <script src="functions.js"></script>
