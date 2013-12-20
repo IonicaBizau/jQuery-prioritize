@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>jQuery Prioritize</title>
+    </head>
+    <body>
+        <pre>
+var $go = $("#go");
+$go.on('click', 5, function (){alert('nice');     });
+$go.on('click', 4, function (){alert('a');        });
+$go.on('click', 6, function (){alert('plugin?');  });
+$go.on('click', 1, function (){alert('Is');       });
+$go.on('click', 3, function (){alert('this');     });
+$go.on('click', 2, function (){alert('not');      });
+        </pre>
+        <button id="go">Test 1</button>
+        <br/>
+        <pre>
+var $go1 = $("#go1");
+$go.on('click', 5, function (){alert('nice');     });
+$go.on('click', 4, function (){alert('a');        });
+$go.on('click', 6, function (){alert('plugin?');  });
+$go.on('click', 1, function (){alert('Is');       });
+$go.on('click', 3, function (){alert('this');     });
+$go.on('click', 2, function (){alert('not');      });
+        </pre>
+        <button id="go1">Test 2</button>
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="../src/jquery-prioritize.js"></script>
+        <script src="functions.js"></script>
+    </body>
+</html>
