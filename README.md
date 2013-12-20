@@ -19,3 +19,20 @@ Prioritize the jQuery events
 ```
 
 [**LIVE DEMO**](http://jsfiddle.net/VxAVs/)
+
+## Bugs
+Did you find a bug? Please report is [here](https://github.com/IonicaBizau/jQuery-prioritize/issues).
+
+## Contributing
+Do you want to contribute to this project? Great! Follow the following steps:
+
+ 1. Search [in the repo issues](https://github.com/IonicaBizau/jQuery-prioritize/issues) an issue you want to fix.
+ 1. If you want to add a new feature that is not added as issue, add it first in the issue list.
+ 1. Fork the project to your profile.
+ 1. Fix the issue you want to fix.
+ 1. Make a pull request.
+
+I will try to merge the pull requests as fast I can.
+
+## License
+MIT License
