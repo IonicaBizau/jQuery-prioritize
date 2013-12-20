@@ -9,16 +9,17 @@ Prioritize the jQuery events
 <script src="path/to/jQuery.js"></script>
 <script src="path/to/jQuery-priorityze.js"></script>
 
-<input id='b1' type='button' value='go'/>
+<button id="go">Test 1</button>
 
 <script>
-  $("#b1").pOn('click', 3, function () { alert ('!');     });
-  $("#b1").pOn('click', 1, function () { alert ('Hello'); });
-  $("#b1").pOn('click', 2, function () { alert ('World'); });
+    var $go = $("#go");
+    $go.on('click', 5, function (){alert('nice');     });
+    $go.on('click', 4, function (){alert('a');        });
+    $go.on('click', 6, function (){alert('plugin?');  });
+    $go.on('click', 1, function (){alert('Is');       });
+    $go.on('click', 3, function (){alert('this');     });
+    $go.on('click', 2, function (){alert('not');      });
 </script>
-```
-
-[**LIVE DEMO**](http://jsfiddle.net/VxAVs/)
 
 ## Bugs
 Did you find a bug? Please report is [here](https://github.com/IonicaBizau/jQuery-prioritize/issues).
