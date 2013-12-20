@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>jQuery-prioritize by IonicaBizau</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>jQuery-prioritize</h1>
+        <h2>Prioritize the jQuery events</h2>
+        <a href="https://github.com/IonicaBizau/jQuery-prioritize" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="jquery-prioritize" class="anchor" href="#jquery-prioritize"><span class="octicon octicon-link"></span></a>jQuery-prioritize</h1>
+
+<p>Prioritize the jQuery events</p>
+
+<h2>
+<a name="demo" class="anchor" href="#demo"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<div class="highlight highlight-HTML"><pre><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"path/to/jQuery.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"path/to/jQuery-priorityze.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+<span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"go"</span><span class="nt">&gt;</span>Test 1<span class="nt">&lt;/button&gt;</span>
+
+<span class="nt">&lt;script&gt;</span>
+    <span class="kd">var</span> <span class="nx">$go</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">"#go"</span><span class="p">);</span>
+    <span class="nx">$go</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(){</span><span class="nx">alert</span><span class="p">(</span><span class="s1">'nice'</span><span class="p">);</span>     <span class="p">});</span>
+    <span class="nx">$go</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(){</span><span class="nx">alert</span><span class="p">(</span><span class="s1">'a'</span><span class="p">);</span>        <span class="p">});</span>
+    <span class="nx">$go</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(){</span><span class="nx">alert</span><span class="p">(</span><span class="s1">'plugin?'</span><span class="p">);</span>  <span class="p">});</span>
+    <span class="nx">$go</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(){</span><span class="nx">alert</span><span class="p">(</span><span class="s1">'Is'</span><span class="p">);</span>       <span class="p">});</span>
+    <span class="nx">$go</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(){</span><span class="nx">alert</span><span class="p">(</span><span class="s1">'this'</span><span class="p">);</span>     <span class="p">});</span>
+    <span class="nx">$go</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(){</span><span class="nx">alert</span><span class="p">(</span><span class="s1">'not'</span><span class="p">);</span>      <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</pre></div>
+
+<h2>
+<a name="bugs" class="anchor" href="#bugs"><span class="octicon octicon-link"></span></a>Bugs</h2>
+
+<p>Did you find a bug? Please report is <a href="https://github.com/IonicaBizau/jQuery-prioritize/issues">here</a>.</p>
+
+<h2>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>Do you want to contribute to this project? Great! Follow the following steps:</p>
+
+<ol>
+<li>Search <a href="https://github.com/IonicaBizau/jQuery-prioritize/issues">in the repo issues</a> an issue you want to fix.</li>
+<li>If you want to add a new feature that is not added as issue, add it first in the issue list.</li>
+<li>Fork the project to your profile.</li>
+<li>Fix the issue you want to fix.</li>
+<li>Make a pull request.</li>
+</ol><p>I will try to merge the pull requests as fast I can.</p>
+
+<h2>
+<a name="changelog" class="anchor" href="#changelog"><span class="octicon octicon-link"></span></a>Changelog</h2>
+
+<h3>
+<a name="v020" class="anchor" href="#v020"><span class="octicon octicon-link"></span></a>v0.2.0</h3>
+
+<ul>
+<li>Overwrite <code>on</code> jQuery function.</li>
+<li>Fixed the mixing of the events</li>
+</ul><h3>
+<a name="v010" class="anchor" href="#v010"><span class="octicon octicon-link"></span></a>v0.1.0</h3>
+
+<ul>
+<li>Initial release</li>
+</ul><h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>MIT License</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/IonicaBizau/jQuery-prioritize/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/IonicaBizau/jQuery-prioritize/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/IonicaBizau/jQuery-prioritize"></a> is maintained by <a href="https://github.com/IonicaBizau">IonicaBizau</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
