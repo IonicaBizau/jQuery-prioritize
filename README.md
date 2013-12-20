@@ -34,5 +34,10 @@ Do you want to contribute to this project? Great! Follow the following steps:
 
 I will try to merge the pull requests as fast I can.
 
+## Changelog
+
+### v0.1.0
+ - Initial release
+
 ## License
 MIT License
