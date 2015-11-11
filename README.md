@@ -38,14 +38,5 @@ Do you want to contribute to this project? Great! Follow the following steps:
 
 I will try to merge the pull requests as fast I can.
 
-## Changelog
-
-### v0.2.0
- - Overwrite `on` jQuery function.
- - Fixed the mixing of the events
-
-### v0.1.0
- - Initial release
-
 ## License
-MIT License
+See the [LICENSE](/LICENSE) file.

@@ -13,10 +13,6 @@
  *
  *  Result: "Hello" -> "Beautiful" -> "World!"
  *
- *  Author: Ionică Bizău <bizauionica@gmail.com>
- *  Copyright (c) Ionică Bizău and the contributors
- *  License: MIT License
- *
  * */
 (function ( $ ) {
     // TODO Comments
@@ -24,7 +20,7 @@
 
     $.fn.on = function(events, selector, options, handler) {
         var $self = this;
-        
+
         // events, handler
         if (typeof selector == "function") {
             handler = selector;
@@ -40,7 +36,7 @@
         }
         // events, selector, options, handler
         // nothing to do
-        
+
         // some checks
         if (options && options.constructor == Object) {
             if (!options.hasOwnProperty("priority")) {
@@ -53,7 +49,7 @@
         } else {
             throw new Error("options must be an object.");
         }
-        
+
         this.oldOn(events, selector, options, handler);
 
         // sort again by priority
@@ -74,7 +70,7 @@
         if (typeof evs === "string") {
             evs = evs.split(" ");
         }
-        
+
         var priorities = {};
 
         for (var i = 0; i < evs.length; ++i) {
