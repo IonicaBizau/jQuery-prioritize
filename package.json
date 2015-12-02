@@ -1,0 +1,35 @@
+{
+  "name": "jquery-prioritize",
+  "version": "1.0.0",
+  "description": "Prioritize the jQuery events",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/jQuery-prioritize.git"
+  },
+  "keywords": [
+    "jquery",
+    "prioritize"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/jQuery-prioritize/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/jQuery-prioritize#readme",
+  "blah": {
+      "description": [
+        {
+            "img": {
+                "source": "http://i.imgur.com/9UGT3TF.png)](http://ionicabizau.github.io/jQuery-prioritize/"
+            }
+        }
+      ]
+  }
+}
