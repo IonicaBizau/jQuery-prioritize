@@ -1,16 +1,20 @@
+
 # jquery-prioritize [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/jquery-prioritize.svg)](https://www.npmjs.com/package/jquery-prioritize) [![Downloads](https://img.shields.io/npm/dt/jquery-prioritize.svg)](https://www.npmjs.com/package/jquery-prioritize) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Prioritize the jQuery events
 
 [![jquery-prioritize](http://i.imgur.com/9UGT3TF.png)](http://ionicabizau.github.io/jQuery-prioritize/)
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save jquery-prioritize
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
  var $go1 = $("#go1");
@@ -21,18 +25,19 @@ $ npm i --save jquery-prioritize
  // Result: "Hello" -> "Beautiful" -> "World!"
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `getPriorityFor()`
 Get a good priority
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
