@@ -1,6 +1,6 @@
 {
   "name": "jquery-prioritize",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Prioritize the jQuery events",
   "main": "lib/index.js",
   "directories": {
@@ -26,5 +26,16 @@
   "blah": {
     "ex_img": "http://i.imgur.com/9UGT3TF.png",
     "ex_url": "http://ionicabizau.github.io/jQuery-prioritize/"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
