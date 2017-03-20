@@ -1,6 +1,6 @@
 {
   "name": "jquery-prioritize",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Prioritize the jQuery events",
   "main": "lib/index.js",
   "directories": {
@@ -17,7 +17,7 @@
     "jquery",
     "prioritize"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/jQuery-prioritize/issues"
@@ -31,12 +31,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
