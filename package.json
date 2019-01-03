@@ -1,6 +1,6 @@
 {
   "name": "jquery-prioritize",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Prioritize the jQuery events",
   "main": "lib/index.js",
   "directories": {
